@@ -46,7 +46,7 @@ const func = async () => {
         response.data.map(e => {
             test.push(e.name);
         })
-
+        console.log(response.headers)
         // console.log("PAGE: "+ page);
         // console.log("PAGE: "+ response.data.map(e => e.name));
         // test.push(response.data.map(e => e.name));
